@@ -9,6 +9,8 @@
 /* ------ */
 body{
   overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 nav > .container-fluid > a > h3{
     font-family: 'Playfair Display', serif;
@@ -118,7 +120,8 @@ padding: 0 10vw;
   
 .course
 {
-   padding: 50px;
+padding-top: 50px;
+
 }  
 
 .product__text

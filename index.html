@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="card.css">
 
+    <link rel="stylesheet" href="styleslider.css">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstarp -->
 
@@ -15,6 +17,14 @@
 
     <script src="https://kit.fontawesome.com/015a0b5bc8.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- -------- -->
+    <!-- owlcarsol2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- ------- -->
 
 
 
@@ -93,9 +103,101 @@
 
       <div class="course">
       <div class="course__container">
-        <div class="row mx-auto">
+        <!-- <div class="wrapper">
+          <div class="carousel owl-carousel">
+             <div class="card card-1">
+                A
+             </div>
+             <div class="card card-2">
+                B
+             </div>
+             <div class="card card-3">
+                C
+             </div>
+             <div class="card card-4">
+                D
+             </div>
+             <div class="card card-5">
+                E
+             </div>
+          </div>
+       </div> -->
+
+
+
+       <div id="mdh-carousel" class="container-fluid">
+    <div class="owl-carousel owl-theme">
+        <div class="item mdh-item-overlay">
+            <div class="pic a"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+            
+        </div>
+      <div class="item mdh-item-overlay">
+            <div class="pic a"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+           
+        </div>
+      <div class="item mdh-item-overlay">
+            <div class="pic b"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+            
+        </div>
+      <div class="item mdh-item-overlay">
+            <div class="pic c"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+            
+        </div>
+      <div class="item mdh-item-overlay">
+            <div class="pic d"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+           
+        </div>
+      <div class="item mdh-item-overlay">
+            <div class="pic e"></div>
+            <div class="info">
+                <h3>Similique ullam</h3>
+                <small>blanditiis</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. c totam ipsam impedit quidem saepe maiores blanditiis repellendus.
+                </p>
+                <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+        <!-- <div class="row mx-auto">
           <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="course_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+              <div class="course_card" >
                   <div class="course_card_img"><img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="course" /></div>
                   <div class="course_card_content">
                       <h3 class="title" style="color: #47bae7 ; font-weight:600; padding-bottom: 20px;">Angular Typescript</h3>
@@ -105,7 +207,7 @@
               </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="course_card"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="course_card"  >
                   <div class="course_card_img"><img src="https://cdn-images-1.medium.com/max/1600/1*xQW9Spiz8U0tNEuX_m2blw.jpeg" alt="course" /></div>
                   <div class="course_card_content">
                       <h3 class="title" style="color: #47bae7 ; font-weight:600; padding-bottom: 20px;">Angular Tutorial</h3>
@@ -115,7 +217,7 @@
               </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="course_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <div class="course_card" >
                   <div class="course_card_img"><img src="https://cdn-images-1.medium.com/max/720/1*aWXAr1bHFtP81is4XwYgrw.png" alt="course" /></div>
                   <div class="course_card_content">
                       <h3 class="title" style="color: #47bae7 ; font-weight:600; padding-bottom: 20px;">Typescript Tutorial</h3>
@@ -124,12 +226,12 @@
                   <div class="course_card_footer"><a class="nav-item" href="https://www.smartcodehub.com/blog">Register Now</a></div>
               </div>
           </div>
-      </div>
+      </div> -->
       </div>
     </div>
 
     </section>
-    <section style="background-color:#54D2F9;">
+    <section style="background-color:#54D2F9;" >
       <div>
         <div class="contact-form-wrapper d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000"  data-aos-delay="400">
           <form action="#" class="contact-form">
@@ -195,6 +297,33 @@
       AOS.init({
         once: true
       });
+
+      $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:2
+      },
+      1000:{
+        items:3
+      },
+      1400:{
+        items:4
+      }
+    },
+    autoplay:true,
+    autoplayTimeout:2500,
+    autoplayHoverPause:true
+  })
+});
+
+
+
     </script>
 </body>
 </html>
