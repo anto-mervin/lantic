@@ -8,11 +8,13 @@ body {
     padding-bottom: 25px;
 }
 #mdh-carousel .owl-carousel .owl-dots {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+
 }
 #mdh-carousel .owl-carousel .item {
     background-color: white;
     border-radius: 4px;
+    margin-bottom: 30px;
     
     
 }
